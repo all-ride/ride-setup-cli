@@ -1,8 +1,8 @@
 {
-    "name": "pallo/setup-cli",
-    "description": "Setup the Pallo CLI through the Composer dependency manager.",
+    "name": "ride/setup-cli",
+    "description": "Setup the Ride CLI through the Composer dependency manager.",
     "version": "0.1.0",
-    "type": "pallo-setup",
+    "type": "ride-setup",
     "authors": [
         {
             "name": "Joris Vandeweerd",
@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "pallo/cli": ">=0.3.0",
-        "pallo/setup": ">=0.1.0",
-        "pallo/setup-app": ">=0.1.0"
+        "ride/cli": ">=0.3.0",
+        "ride/setup": ">=0.1.0",
+        "ride/setup-app": ">=0.1.0"
     }
 }
