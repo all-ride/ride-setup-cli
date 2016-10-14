@@ -1,7 +1,7 @@
 {
     "name": "ride/setup-cli",
     "description": "Setup the Ride CLI through the Composer dependency manager.",
-    "version": "0.1.0",
+    "license": "MIT",
     "type": "ride-setup",
     "authors": [
         {
@@ -10,8 +10,9 @@
         }
     ],
     "require": {
-        "ride/cli": ">=0.3.0",
-        "ride/setup": ">=0.1.0",
-        "ride/setup-app": ">=0.1.0"
+        "ride/cli": "^1.0.0",
+        "ride/cli-app": "^1.0.0",
+        "ride/setup": "^1.0.0",
+        "ride/setup-app": "^1.0.0"
     }
 }
